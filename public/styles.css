@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #startScreen, #chatScreen {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  #chatScreen {
+    display: none;
+  }
+  
+  #roomList {
+    margin-bottom: 20px;
+  }
+  
+  #chat p {
+    margin: 10px 0;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #chatBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  #messageBox {
+    display: flex;
+    align-items: center;
+  }
+  
+  #message {
+    flex: 1;
+  }
+  
+  #sendButton {
+    margin-left: 10px;
+  }
+  
+  #typingIndicator {
+    font-style: italic;
+    color: #999;
+  }
+  
